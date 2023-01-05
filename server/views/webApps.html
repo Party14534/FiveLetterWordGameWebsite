@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My WebApps</title>
+        <link rel="icon" href="media/icon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            article{
+                display: block;
+                width: 70%;
+                height: 100%;
+                background: rgb(216, 252, 221);
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 25px;
+                align-self: center;
+            }
+            iframe{
+                display:block;
+                margin: 0 auto;
+                align-self: center;
+            }
+            form{
+                position:-webkit-sticky;
+                position: sticky;
+            }
+            .center{
+                text-align: center;
+            }
+            .font{
+                font-family:'Courier New';
+                text-align: justify;
+                width: 90%;
+                height: 100%;
+                margin: 5% 35;
+                font-size: x-large;
+                font-weight: 500;
+                padding: 5% ;
+            }
+            .font2{
+                font-family:'Courier New';
+                text-align: center;
+                width: 90%;
+                height: 100%;
+                margin: 5% 20;
+                padding: 5% ;
+                font-size: 350%;
+            }
+    
+            .button1{
+                background: transparent url(https://zachariahdellimore.netlify.app/webapps);
+                background-color: aliceblue;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            .button2{
+                background: transparent url(https://zachariahdellimore.netlify.app/webapps);
+                background-color: aliceblue;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            .container{
+                position: absolute;
+                margin-left: 4%;
+                margin-top: 2%;
+                top: 2%;
+            }
+            .container2{
+                display: block;
+            }
+    
+        </style>
+    </head>
+    <body style="background-color: rgb(107, 105, 105)">
+        <div class="container">
+            <form>
+            <input id="About Me"class="button1" type="image" src="media/AboutMeIcon.png" name = "About Me" width="6%" height="5%" alt="Index" formaction="index.html">
+            </form>
+            <br>
+            <form>
+            <input id="webApp"class="button2" type="image" src="media/webAppIcon.png" name = "My Web Apps" width="6%" height="5%" alt="WebApp" formaction="webApps.html">  
+            </form>
+            </div>
+        <article>
+            <div class="container2">
+            <br>
+            <br>
+            <h1 class="center"><font size="+5"><Strong>My Web Apps</Strong></font></h1>
+            <h1 class="center">Cute Cat Game</h1>
+            <br>
+            <div class="emoji closed active center"><span>😾</span></div>
+            <div class="emoji open center" id="circle"><span>😺</span></div>
+            <br><br><br><br>
+            <h1 class="center">Friends and Family</h1>
+            <div class="center" id="info"></div>
+            <script src = 'scripts.js'></script>
+        </div>
+        </article>
+    </body>
+</html>
